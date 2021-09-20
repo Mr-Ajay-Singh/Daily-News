@@ -4,7 +4,7 @@ It is an Android App which shows daily news within 40 words from different websi
 
 **************************************************************************************************************************************************************
 Download Apk By Clicking on the Link
-<a href="https://github.com/Mr-Ajay-Singh/Whatsapp-Status-Downloader/releases/download/Android/WhatsApp-Status-Downloader.apk" target="_blank" >Download APK</a>
+<a href="https://github.com/Mr-Ajay-Singh/Daily-News/releases/download/android/Daily-news.apk" target="_blank" >Download APK</a>
 
 **************************************************************************************************************************************************************
 
