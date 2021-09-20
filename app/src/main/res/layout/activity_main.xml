@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TabLayoutDesign"
+        android:id="@+id/tabLayoutInMain"
+        android:elevation="3dp"
+        />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:id="@+id/loadingDrawable"
+            android:layout_gravity="center"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/loading_svg"
+                android:id="@+id/loadingImage"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                />
+
+
+        </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainActivityViewPager"
+
+
+        >
+    </androidx.viewpager.widget.ViewPager>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/radius_botto"
+            android:elevation="20dp"
+            android:id="@+id/bottomSetting"
+            >
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:id="@+id/shareScreenShot"
+                android:src="@drawable/share_svg"
+                android:layout_marginTop="18dp"
+
+                />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:id="@+id/suggestedTopicBottom"
+                android:src="@drawable/suggested_svg"
+                android:layout_marginTop="10dp"
+
+                />
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:elevation="30dp"
+                android:id="@+id/homeScreen"
+                android:src="@drawable/home_svg"
+                android:background="@color/skyBlueLight"
+
+                />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:id="@+id/settingMenuBottom"
+                android:src="@drawable/setting_svg"
+                android:layout_marginTop="10dp"
+                />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:id="@+id/showBookmark"
+                android:src="@drawable/bookmark_svg"
+                android:layout_marginTop="18dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

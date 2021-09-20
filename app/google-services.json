@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "491979021026",
+    "firebase_url": "https://daily-news-34f7f.firebaseio.com",
+    "project_id": "daily-news-34f7f",
+    "storage_bucket": "daily-news-34f7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491979021026:android:d9a8efe2ecfa775dbb9cbb",
+        "android_client_info": {
+          "package_name": "com.cyris.dailynews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491979021026-gspb1j33vs0j548cb0vp91p9qohbnnbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ2fcgO5ovTu1CEdL2-XUTFBzjsNInUx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491979021026-gspb1j33vs0j548cb0vp91p9qohbnnbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

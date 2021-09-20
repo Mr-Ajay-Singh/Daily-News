@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:iconSpaceReserved="false">
+    <PreferenceCategory android:title="General"
+        android:iconSpaceReserved="false"
+        app:iconSpaceReserved="false">
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="Load Web Image"
+        android:key="websiteSpeed"
+        android:iconSpaceReserved="false"
+        app:iconSpaceReserved="false"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Other Information"
+        app:iconSpaceReserved="false">
+        <Preference android:title="Privacy Policy"
+            android:key="privacyPolicy"
+            app:iconSpaceReserved="false"
+            >
+        </Preference>
+        <Preference android:title="Terms and Conditions"
+            android:key="termsAndConditions"
+            app:iconSpaceReserved="false"
+            >
+        </Preference>
+        <Preference android:title="Contact Us"
+            android:key="contactUs"
+            app:iconSpaceReserved="false"
+            >
+        </Preference>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="App Info"
+        android:key="appInfo"
+        app:iconSpaceReserved="false"
+        >
+        <Preference
+            android:title="Daily News"
+            android:summary="Daily News v1.0.1"
+            app:iconSpaceReserved="false">
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

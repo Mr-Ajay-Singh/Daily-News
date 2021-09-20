@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="200dp"
+        app:cardPreventCornerOverlap="true"
+
+        android:background="@color/whiteDull"
+        android:id="@+id/flipHolderCard"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/whiteDull"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:background="@color/grey"
+                android:src="@drawable/news_pic"
+                android:id="@+id/imageFlipHolder"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="7dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="title"
+                    android:textStyle="bold"
+                    android:id="@+id/titleFlipHolder"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/flipSource"
+                    android:textColor="@color/redDark"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:fontFamily="sans-serif-light"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp"
+                    android:textSize="16dp"
+                    android:padding="3dp"
+                    android:id="@+id/descriptionFlipHolder"
+                    android:fontFamily="sans-serif-light"
+                    android:text="description"
+                    android:textColor="#555" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:background="@color/grey"
+                android:id="@+id/imageFlipHolderDown"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:id="@+id/clickFlip"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:text="Check it on: "
+                    android:textColor="@color/white"
+                    />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/clickTextFlip"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/white"
+                />
+
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
